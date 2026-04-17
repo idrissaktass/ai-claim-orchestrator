@@ -44,7 +44,7 @@ export const DeductionNode = ({ data }: { data: any }) => {
             className="w-full cursor-pointer py-5 bg-slate-900 text-white rounded-3xl font-black text-sm flex items-center justify-center gap-3 hover:bg-blue-600 transition-all shadow-xl shadow-slate-200 group/btn"
           >
             <FileUp size={20} className="group-hover/btn:-translate-y-1 transition-transform" />
-            Upload Certificate & Start AI Scan
+            Upload & Start AI Scan
           </button>
         )}
 
