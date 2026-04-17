@@ -26,7 +26,7 @@ export const DeductionNode = ({ data }: { data: any }) => {
         </div>
       </div>
 
-      <div className="grid grid-cols-2 gap-4 mb-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
         <div className="p-4 bg-slate-50 rounded-2xl border border-slate-100">
           <p className="text-[10px] text-slate-400 font-black uppercase tracking-tighter">Occupational Deduction</p>
           <p className="text-lg font-bold text-slate-700">{data.occupationalDeduction} [cite: 86]</p>
